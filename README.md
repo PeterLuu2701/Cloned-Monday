@@ -39,6 +39,62 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+# Library Using
+
+## Ant Design (antd)
+
+### Registration and Login Screen:
+
+- Utilize Ant Design's `Form`, `Input`, `Button` components to create the registration and login form interfaces.
+- Use `Modal` to display notifications or login/registration windows.
+
+### Dashboard Screen:
+
+- Utilize Ant Design's `Menu`, `Card`, `Table` components to build the user interface for the Dashboard.
+- Use `Button` to perform actions within the Dashboard.
+
+### User Profile and Personal Information Management Screens:
+
+- Use Ant Design's `Form`, `Input`, `Button` components to create form interfaces.
+- Use `Table` and `Modal` to display and manage personal information.
+
+## Axios
+
+### All Screens:
+
+- Use Axios to send HTTP requests to the server (registration, login, fetching personal information, updating personal information).
+
+## Formik and Yup
+
+### Registration and Login Screen:
+
+- Use Formik to manage form state and handle submission.
+- Use Yup for validation and checking input data.
+
+### User Profile and Personal Information Management Screens:
+
+- Use Formik to manage state and handle submission of forms.
+- Use Yup to define validation rules.
+
+## History
+
+### All Screens:
+
+- Use History to manage browsing history and perform navigation between screens.
+
+## Moment
+
+### User Profile and Personal Information Management Screens:
+
+- Use Moment to display and format time, if there is time-related information in personal data.
+
+## Sass
+
+### All Screens:
+
+- Use Sass to manage CSS source code and improve the style management of the application.
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,3 +124,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
